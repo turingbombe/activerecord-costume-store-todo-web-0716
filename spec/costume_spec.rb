@@ -1,7 +1,7 @@
 require_relative 'spec_helper'
+require 'pry'
 
 describe "Costume" do
-
   it "has a name" do
     hot_dog = Costume.create(
       name: "Unisex Adult Hot Dog Costume"
